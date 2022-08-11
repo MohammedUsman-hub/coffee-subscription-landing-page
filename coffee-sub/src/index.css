@@ -26,3 +26,17 @@ html, body{
   cursor: pointer;
   color: rgb(255, 21, 0);
 }
+
+
+#txt-1{
+  color:white;
+  position: relative;
+  bottom: 50pc;
+  font-size: 40px;
+}
+#txt-2{
+  color: white;
+  position: relative;
+  bottom: 50pc;
+  font-size: 40px;
+}
