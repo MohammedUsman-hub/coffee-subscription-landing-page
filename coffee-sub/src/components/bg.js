@@ -4,11 +4,10 @@ import "../index.css";
 
 export default class Bg extends Component {
     render(){
-        return {
-            <div>
-                <img src={bg}></img>
-                <h2></h2>
-            </div>
-        };
+        return (<div>
+            <img id='bg' src={bg}></img>
+            <h2></h2>
+        </div>
+        );
     }
 }
