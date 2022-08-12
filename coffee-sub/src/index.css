@@ -3,31 +3,42 @@ html, body{
   height: 100%;
   margin: 0px;
   padding: 0px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(126, 113, 83);
   scroll-behavior: smooth;
 }
 
 #bg{
-  width: 100%;
+  width: 77%;
+  position: relative;
+  left: 23%;
+  opacity: 75%;
 }
 
 #join-btn{
- 
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  bottom: 75pc;
-  left: 3%;
-  width: 6%;
+  bottom: 45pc;
+  left: 30%;
+  width: 19%;
   height: 40px;
   border-radius: 5pc;
   color: white;
-  background-image: linear-gradient(to right, #5eddb1 0%, #2d3bbd 51%, #b10ce8 100%);
+  background-color: rgb(126, 113, 83);
 }
 #join-btn:hover{
   cursor: pointer;
-  color: rgb(255, 21, 0);
+  color: rgb(74, 69, 54);
 }
 
-
+#text1-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  width: 60%;
+}
 #txt-1{
   color:white;
   position: relative;

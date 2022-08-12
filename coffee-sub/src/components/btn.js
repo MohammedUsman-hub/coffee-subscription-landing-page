@@ -5,7 +5,7 @@ export default class JoinBtn extends Component{
     render(){
         return(
             <div>
-                <button id='join-btn'>Join</button>
+                <b><button id='join-btn'>Join</button></b>
             </div>
         );
     }
