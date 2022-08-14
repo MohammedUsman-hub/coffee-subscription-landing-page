@@ -19,17 +19,21 @@ html, body{
   justify-content: center;
   align-items: center;
   position: relative;
-  bottom: 45pc;
-  left: 30%;
+  bottom: 20pc;
+  left: 45%;
   width: 19%;
   height: 40px;
   border-radius: 5pc;
   color: white;
-  background-color: rgb(126, 113, 83);
+  background-color: rgb(76, 69, 51);
+  transition: .7s ease;
+  font-size: 20px;
 }
 #join-btn:hover{
   cursor: pointer;
-  color: rgb(74, 69, 54);
+  color: rgb(22, 31, 41);
+  background-color: rgb(91, 83, 62);
+  transform: scale(0.8);
 }
 
 #text1-div{

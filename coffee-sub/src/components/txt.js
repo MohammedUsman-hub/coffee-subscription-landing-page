@@ -7,7 +7,7 @@ export default class text1 extends Component{
             <div  id='text1-div'>
                 <h3 id='txt-1'>Start your subscription Today.</h3>
                 <h3 id='txt-2'>Starting at £4.99 monthly!</h3>
-                <b><button id='join-btn'>Join</button></b>
+                
             </div>
         )
     }
