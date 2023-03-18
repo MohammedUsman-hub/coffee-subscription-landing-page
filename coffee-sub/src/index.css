@@ -29,13 +29,17 @@ html, body{
 }
 
 /* Join button */
+.button-div{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0px;
+}
 #join-btn{
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  bottom: 20pc;
-  left: 2%;
   width: 19%;
   height: 40px;
   border-radius: 5pc;
@@ -52,23 +56,26 @@ html, body{
 }
 
 /* Text  */
-#text1-div{
+#text-div{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  align-content: center;
-  width: 60%;
+  width: 35%;
+  position: absolute;
+  top: 0px;
   
 }
 #txt-1{ /* start your sub */
   color:white;
   font-size: 25px;
   display: flex;
-  
+  margin: auto;
 }
 #txt-2{ /* £4.99 monthly */
   color: white;
-  font-size: 30px;
+  font-size: 28px;
+  display: flex;
+   margin: auto;
 }
 
 /* Top left logo */
@@ -80,4 +87,6 @@ html, body{
 .nav-bar{ /* logo div */
   display: flex;
   justify-content: baseline;
+  position: absolute;
+  top: 0px;
 }

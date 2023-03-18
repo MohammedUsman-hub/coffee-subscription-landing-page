@@ -4,9 +4,11 @@ import "../index.css";
 export default class JoinBtn extends Component{
     render(){
         return(
-            <div>
+            <div classname="button-div">
                 <b><button id='join-btn'>Join</button></b>
             </div>
+
+            
         );
     }
 }
