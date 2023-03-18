@@ -6,7 +6,7 @@ export default class Bg extends Component {
     render(){
         return (
         <div id='bg'>
-            <img  src={bg}></img>
+            <img className='backgorund-img' src={bg}></img>
             
         </div>
         );
