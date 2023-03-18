@@ -9,16 +9,26 @@ html, body{
   scroll-behavior: smooth;
 }
 
-
-#bg{
-  width: 77%;
-  position: relative;
-  left: 23%;
-  min-height: 100vh;
-  object-fit: cover;
- /* opacity: 75%;*/
+*{
+  outline: 1px solid red;
 }
 
+/* Background image */
+#bg{
+  display: flex;
+  justify-content: flex-end;
+  min-height: 100vh;
+  
+ /* opacity: 75%;*/
+}
+.background-img{
+  display: flex;
+  min-height: 100vh;
+  object-fit: cover;
+  
+}
+
+/* Join button */
 #join-btn{
   display: flex;
   justify-content: center;
