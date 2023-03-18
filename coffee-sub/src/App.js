@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import Background from './components/bg'
 import JoinBtn from './components/btn'
+import NavBar from './components/nav';
 import Text from './components/txt';
 
 export default class App extends Component{
@@ -10,6 +11,7 @@ export default class App extends Component{
                 <Background/>
                 <JoinBtn/>
                 <Text/>
+                <NavBar/>
             </div>
         );
     }

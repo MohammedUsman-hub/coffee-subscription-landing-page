@@ -14,7 +14,7 @@ html, body{
   width: 77%;
   position: relative;
   left: 23%;
-  height: 100%;
+  min-height: 100vh;
   object-fit: cover;
  /* opacity: 75%;*/
 }
@@ -61,4 +61,11 @@ html, body{
   bottom: 45pc;
   right: 65%;
   font-size: 30px;
+}
+
+.logo{
+  width: 60px;
+  position: relative;
+  bottom: 68pc;
+  left: 1%;
 }
