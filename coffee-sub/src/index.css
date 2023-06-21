@@ -97,7 +97,7 @@ html, body{
   font-size: 20px;
   position: absolute;
   top: 50%;
-  left: 6%;
+  left: 5%;
 }
 #join-btn:hover{
   cursor: pointer;
@@ -113,21 +113,26 @@ html, body{
   align-items: center;
   width: 35%;
   position: relative;
-  top: 0px;
+  top: 50px;
   
 }
 #txt-1{ /* start your sub */
   color:white;
-  font-size: 25px;
+  font-size: 40px;
+  width: 100%;
   display: flex;
   margin: auto;
   position: absolute;
+  bottom: 45pc;
+  left: 4%;
 }
 #txt-2{ /* £4.99 monthly */
   color: white;
-  font-size: 28px;
+  font-size: 40px;
   display: flex;
   margin: auto;
   position: absolute;
+  bottom: 40pc;
+  left: 8%;
 }
 
