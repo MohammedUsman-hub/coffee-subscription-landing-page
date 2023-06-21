@@ -9,11 +9,11 @@ html, body{
   scroll-behavior: smooth;
 }
 
-/* I only used this to test the spacing around the content. I wanted to fix the height....*/*{
+/* I only used this to test the spacing around the content. I wanted to fix the height....*{
 
   outline: 1px solid red;
 
-}
+}*/
 
 /* Top left logo */
 .logo{
@@ -110,7 +110,7 @@ html, body{
   align-items: center;
   width: 35%;
   position: relative;
-  top: 50px;
+  top: 90px;
 }
 #txt-1{ /* start your sub */
   color:white;
@@ -147,4 +147,26 @@ html, body{
 .txtBox-txt{
   font-size: 83px;
   color: wheat;
+}
+
+
+.learnMore-div{
+  width: 9%;
+  height: 50px;
+  position: relative;
+  outline: 5px solid white;
+  bottom: 14pc;
+  left: 80%;
+  padding-left: 10px;
+}
+.learnMore-txt{
+  font-size: 30px;
+  color: white;
+}
+.learnMore-div:hover{
+  cursor: pointer;
+  outline: 5px solid rgba(227, 160, 113, 0.41);
+}
+.learnMore-txt:hover{
+  color: rgba(227, 160, 113, 0.41);
 }

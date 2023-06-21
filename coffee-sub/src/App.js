@@ -4,6 +4,7 @@ import JoinBtn from './components/btn'
 import NavBar from './components/nav';
 import Text from './components/txt';
 import TextBox from './components/txtbox';
+import LearnMore from './components/learnmore';
 
 export default class App extends Component{
     render(){
@@ -14,6 +15,7 @@ export default class App extends Component{
                 <Text/>
                 <NavBar/>
                 <TextBox/>
+                <LearnMore/>
             </div>
         );
     }
