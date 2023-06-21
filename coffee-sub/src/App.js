@@ -3,6 +3,7 @@ import Background from './components/bg'
 import JoinBtn from './components/btn'
 import NavBar from './components/nav';
 import Text from './components/txt';
+import TextBox from './components/txtbox';
 
 export default class App extends Component{
     render(){
@@ -12,6 +13,7 @@ export default class App extends Component{
                 <JoinBtn/>
                 <Text/>
                 <NavBar/>
+                <TextBox/>
             </div>
         );
     }
