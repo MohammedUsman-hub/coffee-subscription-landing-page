@@ -9,9 +9,11 @@ html, body{
   scroll-behavior: smooth;
 }
 
-*{
+/* I only used this to test the spacing around the content. I wanted to fix the height....*{
+
   outline: 1px solid red;
-}
+
+}*/
 
 /* Background image */
 #bg{
@@ -20,7 +22,7 @@ html, body{
   min-height: 100vh;
   opacity: 35%;
   
- /* opacity: 75%;*/
+
 }
 .background-img{
   display: flex;
@@ -32,11 +34,8 @@ html, body{
 /* Join button */
 .button-div{
   display: flex;
-
-  padding: 0;
-  margin: 0;
-  position: absolute;
-  top: 0px;
+  position: relative;
+  
 }
 #join-btn{
   display: flex;
@@ -44,11 +43,14 @@ html, body{
   align-items: center;
   width: 19%;
   height: 40px;
-  border-radius: 5pc;
+  border-radius: 50px;
   color: white;
   background-color: rgb(76, 69, 51);
   transition: .7s ease;
   font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 6%;
 }
 #join-btn:hover{
   cursor: pointer;
@@ -63,7 +65,7 @@ html, body{
   justify-content: space-between;
   align-items: center;
   width: 35%;
-  position: absolute;
+  position: relative;
   top: 0px;
   
 }
@@ -72,12 +74,14 @@ html, body{
   font-size: 25px;
   display: flex;
   margin: auto;
+  position: absolute;
 }
 #txt-2{ /* £4.99 monthly */
   color: white;
   font-size: 28px;
   display: flex;
-   margin: auto;
+  margin: auto;
+  position: absolute;
 }
 
 /* Top left logo */
