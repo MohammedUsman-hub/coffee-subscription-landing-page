@@ -29,12 +29,13 @@ html, body{
   justify-content: baseline;
   position: relative;
   top: 10px;
-  font-size: 20px;
+  font-size: 25px;
 }
 .nav-bar span:hover{
-  color: greenyellow;
+  color: #9A7BAF;
   cursor: pointer;
-  transform: rotate(25 deg);
+  transform: rotate(20deg);
+
 }
 .nav-bar-home{
   color: white;
@@ -58,7 +59,7 @@ html, body{
   color: white;
   position: absolute;
   bottom: 55pc;
-  left: 70%;
+  left: 71%;
 }
 
 /* Background image */
