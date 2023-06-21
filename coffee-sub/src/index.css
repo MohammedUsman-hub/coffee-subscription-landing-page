@@ -137,10 +137,14 @@ html, body{
 .txtBox-div{
   width: 50%;
   height: 50%;
-  background-color: rgba(210, 105, 30, 0.407);
+  background-color: rgba(210, 105, 30, 0.105);
   font-family: 'Inspiration', cursive;
   position: absolute;
   top: 25%;
   left: 40%;
-  opacity: 30%;
+  opacity: 100%;
+}
+.txtBox-txt{
+  font-size: 83px;
+  color: wheat;
 }
