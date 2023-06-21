@@ -5,7 +5,7 @@ html, body{
   padding: 0;
   background: linear-gradient(to right, rgb(117, 111, 103) 10%, rgb(48, 37, 19) 30%);
   /*background-color: rgb(166, 203, 197);*/
-  
+  font-family: 'Pacifico', cursive;
   scroll-behavior: smooth;
 }
 
@@ -98,6 +98,7 @@ html, body{
   position: absolute;
   top: 50%;
   left: 5%;
+  font-family: 'Pacifico', cursive;
 }
 #join-btn:hover{
   cursor: pointer;
@@ -134,5 +135,7 @@ html, body{
   position: absolute;
   bottom: 40pc;
   left: 8%;
+  
+  
 }
 
