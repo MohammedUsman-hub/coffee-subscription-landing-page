@@ -17,12 +17,12 @@ html, body{
 
 /* Top left logo */
 .logo{
-  width: 60px;
+  width: 8%;
   display:flex;
   justify-content: baseline;
   position: absolute;
-  bottom: 55pc;
-  left: 10px;
+  bottom: 48pc;
+  left: 11%;
 }
 .nav-bar{ /* logo div */
   display: flex;
@@ -183,7 +183,7 @@ html, body{
   position: absolute;
   width: 5%;
   left: -3%;
-  transition: .7s ease;
+  transition: .2s ease;
 }
 .fb:hover{
   transform: scale(0.8);
@@ -193,7 +193,7 @@ html, body{
   position: absolute;
   width: 5%;
   left: 4%;
-  transition: .7s ease;
+  transition: .2s ease;
 }
 .insta:hover{
   transform: scale(0.8);
@@ -203,7 +203,7 @@ html, body{
   position: absolute;
   width: 5%;
   left: 11%;
-  transition: .7s ease;
+  transition: .2s ease;
 }
 .tw:hover{
   transform: scale(0.8);
@@ -213,7 +213,7 @@ html, body{
   position: absolute;
   width: 5%;
   left: 18%;
-  transition: .7s ease;
+  transition: .2s ease;
 }
 .email:hover{
   transform: scale(0.8);
