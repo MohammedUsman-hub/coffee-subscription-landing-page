@@ -4,6 +4,7 @@ import '../index.css';
 import Facebook from '../images/fb.png'
 import Instagram from '../images/insta.png'
 import Twitter from '../images/tw.png'
+import Email from '../images/email.png'
 
 export default class SmLogo extends Component{
     render(){
@@ -12,6 +13,7 @@ export default class SmLogo extends Component{
                 <img className='fb' src={Facebook}></img>
                 <img className='insta' src={Instagram}></img>
                 <img className='tw' src={Twitter}></img>
+                <img className='email' src={Email}></img>
             </div>
         )
     }

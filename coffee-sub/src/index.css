@@ -175,21 +175,47 @@ html, body{
 /* Social Media logos */
 .smLogo{
   position: relative;
-  display: flex;
   bottom: 25pc;
-  flex-wrap: nowrap;
-  gap: 50px;
- 
+  width: 60%;
+  left: 9%;
 }
 .fb{
   position: absolute;
   width: 5%;
+  left: -3%;
+  transition: .7s ease;
+}
+.fb:hover{
+  transform: scale(0.8);
+  cursor: pointer;
 }
 .insta{
   position: absolute;
   width: 5%;
+  left: 4%;
+  transition: .7s ease;
+}
+.insta:hover{
+  transform: scale(0.8);
+  cursor: pointer;
 }
 .tw{
   position: absolute;
   width: 5%;
+  left: 11%;
+  transition: .7s ease;
+}
+.tw:hover{
+  transform: scale(0.8);
+  cursor: pointer;
+}
+.email{
+  position: absolute;
+  width: 5%;
+  left: 18%;
+  transition: .7s ease;
+}
+.email:hover{
+  transform: scale(0.8);
+  cursor: pointer;
 }
