@@ -5,6 +5,7 @@ import NavBar from './components/nav';
 import Text from './components/txt';
 import TextBox from './components/txtbox';
 import LearnMore from './components/learnmore';
+import SocialMediaLogo from './components/SmLogo';
 
 export default class App extends Component{
     render(){
@@ -16,6 +17,7 @@ export default class App extends Component{
                 <NavBar/>
                 <TextBox/>
                 <LearnMore/>
+                <SocialMediaLogo/>
             </div>
         );
     }

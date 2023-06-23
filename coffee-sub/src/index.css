@@ -170,3 +170,24 @@ html, body{
 .learnMore-txt:hover{
   color: rgba(227, 160, 113, 0.41);
 }
+
+
+/* Social Media logos */
+.smLogo{
+  position: relative;
+  display: flex;
+  bottom: 25pc;
+  gap: 30px;
+}
+.fb{
+  position: absolute;
+  width: 5%;
+}
+.insta{
+  position: absolute;
+  width: 5%;
+}
+.tw{
+  position: absolute;
+  width: 5%;
+}
