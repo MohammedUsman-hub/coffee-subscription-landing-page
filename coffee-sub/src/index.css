@@ -177,7 +177,9 @@ html, body{
   position: relative;
   display: flex;
   bottom: 25pc;
-  gap: 30px;
+  flex-wrap: nowrap;
+  gap: 50px;
+ 
 }
 .fb{
   position: absolute;
