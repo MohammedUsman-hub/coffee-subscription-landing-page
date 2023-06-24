@@ -6,6 +6,7 @@ import Text from './components/txt';
 import TextBox from './components/txtbox';
 import LearnMore from './components/learnmore';
 import SocialMediaLogo from './components/SmLogo';
+import Footer from './components/footer';
 
 export default class App extends Component{
     render(){
@@ -18,6 +19,7 @@ export default class App extends Component{
                 <TextBox/>
                 <LearnMore/>
                 <SocialMediaLogo/>
+                <Footer/>
             </div>
         );
     }
