@@ -280,6 +280,7 @@ html, body{
     position: relative;
     top: 0px;
     font-size: 10px;
+    left: 20%;
   }
   .nav-bar span:hover{
     color: #9A7BAF;
@@ -344,7 +345,7 @@ html, body{
     font-size: 20px;
     position: absolute;
     top: 45%;
-    left: 5%;
+    left: 25%;
     font-family: 'Pacifico', cursive;
   }
   #join-btn:hover{
@@ -371,7 +372,7 @@ html, body{
     margin: auto;
     position: absolute;
     bottom: 46pc;
-    left: 4%;
+    left: 30%;
   }
   #txt-2{ /* £4.99 monthly */
     color: white;
@@ -380,7 +381,7 @@ html, body{
     margin: auto;
     position: absolute;
     bottom: 42pc;
-    left: 8%;
+    left: 33%;
     
   }
   
@@ -393,7 +394,7 @@ html, body{
     font-family: 'Inspiration', cursive;
     position: absolute;
     top: 60%;
-    left: 2%;
+    left: 24%;
     opacity: 100%;
   }
   .txtBox-txt{
@@ -408,7 +409,7 @@ html, body{
     position: relative;
     outline: 2px solid white;
     bottom: 19pc;
-    left: 28%;
+    left: 35%;
     padding-left: 10px;
   }
   .learnMore-txt{
@@ -429,7 +430,7 @@ html, body{
     position: relative;
     bottom: 15pc;
     width: 100%;
-    left: 9%;
+    left: 30%;
   }
   .fb{
     position: absolute;
