@@ -9,6 +9,7 @@ html, body{
   /*background-color: rgb(166, 203, 197);*/
   font-family: 'Pacifico', cursive;
   scroll-behavior: smooth;
+  Overflow-y:scroll
 }
 
 /* I only used this to test the spacing around the content. I wanted to fix the height....*{
