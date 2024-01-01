@@ -265,7 +265,7 @@ html, body{
     justify-content: baseline;
     position: absolute;
     bottom: 52pc;
-    left: 15%;
+    left: 10%;
   }
   .nav-bar{ /* logo div */
     display: flex;
