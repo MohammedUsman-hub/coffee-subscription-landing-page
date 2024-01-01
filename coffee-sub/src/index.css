@@ -397,13 +397,14 @@ html, body{
   
   
   .learnMore-div{
-    width: 9%;
+    width: 21%;
     height: 50px;
-    position: relative;
+    position: absolute;
     outline: 5px solid white;
-    bottom: 14pc;
-    left: 80%;
+    top: 70pc;
+    left: 70%;
     padding-left: 10px;
+    transition: .9s ease;
   }
   .learnMore-txt{
     font-size: 30px;
@@ -411,18 +412,19 @@ html, body{
   }
   .learnMore-div:hover{
     cursor: pointer;
-    outline: 5px solid rgba(227, 160, 113, 0.41);
+    outline: 5px solid rgba(224, 194, 172, 0.41);
+    transform: scale(0.8);
   }
   .learnMore-txt:hover{
-    color: rgba(227, 160, 113, 0.41);
+    color: rgb(224, 194, 172, 0.41);
   }
   
   
   /* Social Media logos */
   .smLogo{
-    position: relative;
-    bottom: 25pc;
-    width: 60%;
+    position: absolute;
+    top: 70pc;
+    width: 100%;
     left: 9%;
   }
   .fb{
