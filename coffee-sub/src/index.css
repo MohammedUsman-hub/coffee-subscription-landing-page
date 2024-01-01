@@ -264,14 +264,14 @@ html, body{
     display:flex;
     justify-content: baseline;
     position: absolute;
-    bottom: 55pc;
+    bottom: 52pc;
     left: 15%;
   }
   .nav-bar{ /* logo div */
     display: flex;
     justify-content: baseline;
     position: relative;
-    top: -50px;
+    top: -70px;
     font-size: 25px;
   }
   .nav-bar span:hover{
@@ -284,25 +284,25 @@ html, body{
     color: white;
     position: absolute;
     bottom: 55pc;
-    left: 55%;
+    left: 40%;
   }
   .nav-bar-about{
     color: white;
     position: absolute;
     bottom: 55pc;
-    left: 60%;
+    left: 51%;
   }
   .nav-bar-product{
     color: white;
     position: absolute;
     bottom: 55pc; 
-    left: 65%;                
+    left: 62%;                
   }
   .nav-bar-contact{
     color: white;
     position: absolute;
     bottom: 55pc;
-    left: 71%;
+    left: 75%;
   }
   
   /* Background image */
