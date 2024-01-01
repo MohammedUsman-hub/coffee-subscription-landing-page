@@ -319,7 +319,7 @@ html, body{
     object-fit: cover;
   }
   
-  /* Join button */
+  /* Join button (Sign Up) */
   .button-div{
     display: flex;
     position: relative;
@@ -352,9 +352,10 @@ html, body{
     
     justify-content: space-between;
     align-items: center;
-    width: 35%;
+    width: 100%;
     position: relative;
-    top: 90px;
+    top: 0px;
+    left: 15%;
   }
   #txt-1{ /* start your sub */
     color:white;
@@ -379,13 +380,13 @@ html, body{
   
   
   .txtBox-div{
-    width: 50%;
+    width: 100%;
     height: 50%;
     background-color: rgba(210, 105, 30, 0.105);
     font-family: 'Inspiration', cursive;
     position: absolute;
-    top: 25%;
-    left: 40%;
+    top: 55%;
+    left: 0%;
     opacity: 100%;
   }
   .txtBox-txt{
