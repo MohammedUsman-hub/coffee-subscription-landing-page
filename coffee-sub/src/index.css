@@ -260,14 +260,14 @@ html, body{
     display:flex;
     justify-content: baseline;
     position: absolute;
-    bottom: 48pc;
+    bottom: 52pc;
     left: 11%;
   }
   .nav-bar{ /* logo div */
     display: flex;
     justify-content: baseline;
     position: relative;
-    top: 10px;
+    top: 90px;
     font-size: 25px;
   }
   .nav-bar span:hover{
