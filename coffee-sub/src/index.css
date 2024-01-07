@@ -251,7 +251,213 @@ html, body{
 
 
 @media only screen and (max-width: 1920px){ /* Laptop */
+  .logo{
+    width: 8%;
+    display:flex;
+    justify-content: baseline;
+    position: absolute;
+    bottom: 52pc;
+    left: 15%;
+  }
+  .nav-bar{ /* logo div */
+    display: flex;
+    justify-content: baseline;
+    position: relative;
+    top: 90px;
+    font-size: 25px;
+  }
+  .nav-bar span:hover{
+    color: #9A7BAF;
+    cursor: pointer;
+    transform: rotate(20deg);
+  
+  }
+  .nav-bar-home{
+    color: white;
+    position: absolute;
+    bottom: 55pc;
+    left: 50%;
+  }
+  .nav-bar-about{
+    color: white;
+    position: absolute;
+    bottom: 55pc;
+    left: 56%;
+  }
+  .nav-bar-product{
+    color: white;
+    position: absolute;
+    bottom: 55pc; 
+    left: 62.5%;                
+  }
+  .nav-bar-contact{
+    color: white;
+    position: absolute;
+    bottom: 55pc;
+    left: 70%;
+  }
+  
+  /* Background image */
+  #bg{
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    opacity: 35%;
 
+    
+  }
+  .background-img{
+    display: flex;
+    object-fit: cover;
+
+  }
+  
+  /* Join button */
+  .button-div{
+    display: flex;
+    position: absolute;
+  }
+  #join-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(76, 69, 51);
+    transition: .7s ease;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 6%;
+    font-family: 'Pacifico', cursive;
+  }
+  #join-btn:hover{
+    cursor: pointer;
+    color: rgb(22, 31, 41);
+    background-color: rgb(255, 255, 255);
+    transform: scale(0.8);
+  }
+  
+  /* Text  */
+  #text-div{
+    
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    position: relative;
+    top: 90px;
+  }
+  #txt-1{ /* start your sub */
+    color:white;
+    font-size: 39px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    position: absolute;
+    bottom: 45pc;
+    left: 4%;
+  }
+  #txt-2{ /* £4.99 monthly */
+    color: white;
+    font-size: 40px;
+    display: flex;
+    margin: auto;
+    position: absolute;
+    bottom: 38pc;
+    left: 8%;
+  }
+  
+  
+  
+  .txtBox-div{
+    width: 59%;
+    height: 57%;
+    background-color: rgba(210, 105, 30, 0.105);
+    font-family: 'Inspiration', cursive;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    opacity: 100%;
+    text-align: center;
+  }
+  .txtBox-txt{
+    font-size: 83px;
+    color: wheat;
+  }
+  
+  
+  .learnMore-div{
+    width: 12%;
+    height: 50px;
+    position: relative;
+    outline: 5px solid white;
+    bottom: 9pc;
+    left: 86%;
+    padding-left: 10px;
+  }
+  .learnMore-txt{
+    font-size: 30px;
+    color: white;
+   
+  }
+  .learnMore-div:hover{
+    cursor: pointer;
+    outline: 5px solid rgba(227, 160, 113, 0.41);
+  }
+  .learnMore-txt:hover{
+    color: rgba(227, 160, 113, 0.41);
+  }
+  
+  
+  /* Social Media logos */
+  .smLogo{
+    position: relative;
+    bottom: 12pc;
+    width: 60%;
+    left: 12%;
+  }
+  .fb{
+    position: absolute;
+    width: 5%;
+    left: -3%;
+    transition: .2s ease;
+  }
+  .fb:hover{
+    transform: scale(0.8);
+    cursor: pointer;
+  }
+  .insta{
+    position: absolute;
+    width: 5%;
+    left: 6%;
+    transition: .2s ease;
+  }
+  .insta:hover{
+    transform: scale(0.8);
+    cursor: pointer;
+  }
+  .tw{
+    position: absolute;
+    width: 5%;
+    left: 14%;
+    transition: .2s ease;
+  }
+  .tw:hover{
+    transform: scale(0.8);
+    cursor: pointer;
+  }
+  .email{
+    position: absolute;
+    width: 5%;
+    left: 22%;
+    transition: .2s ease;
+  }
+  .email:hover{
+    transform: scale(0.8);
+    cursor: pointer;
+  }
 }
 
 @media only screen and (max-width: 1440px){ /* Laptop */
@@ -595,6 +801,7 @@ html, body{
     top: 50%;
     left: 0%;
     opacity: 100%;
+    text-align: center;
   }
   .txtBox-txt{
     font-size: 83px;
@@ -821,6 +1028,7 @@ html, body{
     top: 60%;
     left: 24%;
     opacity: 100%;
+    text-align: center;
   }
   .txtBox-txt{
     font-size: 20px;
