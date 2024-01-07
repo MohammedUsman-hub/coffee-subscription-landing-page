@@ -9,7 +9,7 @@ html, body{
   /*background-color: rgb(166, 203, 197);*/
   font-family: 'Pacifico', cursive;
   scroll-behavior: smooth;
-  Overflow-y:scroll
+  /*Overflow-y:scroll*/
 }
 
 /* I only used this to test the spacing around the content. I wanted to fix the height....*{
@@ -123,7 +123,7 @@ html, body{
   display: flex;
   margin: auto;
   position: absolute;
-  bottom: 40pc;
+  bottom: 46pc;
   left: 4%;
 }
 #txt-2{ /* £4.99 monthly */
@@ -355,7 +355,7 @@ html, body{
   }
   #txt-1{ /* start your sub */
     color:white;
-    font-size: 40px;
+    font-size: 39px;
     width: 100%;
     display: flex;
     margin: auto;
@@ -369,7 +369,7 @@ html, body{
     display: flex;
     margin: auto;
     position: absolute;
-    bottom: 40pc;
+    bottom: 38pc;
     left: 8%;
   }
   
