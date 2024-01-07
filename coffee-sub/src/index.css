@@ -261,7 +261,7 @@ html, body{
     justify-content: baseline;
     position: absolute;
     bottom: 52pc;
-    left: 11%;
+    left: 15%;
   }
   .nav-bar{ /* logo div */
     display: flex;
@@ -325,7 +325,7 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 19%;
+    width: 25%;
     height: 40px;
     border-radius: 50px;
     color: white;
@@ -334,7 +334,7 @@ html, body{
     font-size: 20px;
     position: absolute;
     top: 50%;
-    left: 5%;
+    left: 6%;
     font-family: 'Pacifico', cursive;
   }
   #join-btn:hover{
