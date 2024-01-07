@@ -376,14 +376,15 @@ html, body{
   
   
   .txtBox-div{
-    width: 50%;
-    height: 50%;
+    width: 59%;
+    height: 57%;
     background-color: rgba(210, 105, 30, 0.105);
     font-family: 'Inspiration', cursive;
     position: absolute;
     top: 25%;
     left: 40%;
     opacity: 100%;
+    text-align: center;
   }
   .txtBox-txt{
     font-size: 83px;
@@ -392,17 +393,18 @@ html, body{
   
   
   .learnMore-div{
-    width: 9%;
+    width: 12%;
     height: 50px;
     position: relative;
     outline: 5px solid white;
-    bottom: 14pc;
-    left: 80%;
+    bottom: 9pc;
+    left: 86%;
     padding-left: 10px;
   }
   .learnMore-txt{
     font-size: 30px;
     color: white;
+   
   }
   .learnMore-div:hover{
     cursor: pointer;
