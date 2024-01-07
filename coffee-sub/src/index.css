@@ -418,9 +418,9 @@ html, body{
   /* Social Media logos */
   .smLogo{
     position: relative;
-    bottom: 25pc;
+    bottom: 12pc;
     width: 60%;
-    left: 9%;
+    left: 12%;
   }
   .fb{
     position: absolute;
@@ -435,7 +435,7 @@ html, body{
   .insta{
     position: absolute;
     width: 5%;
-    left: 4%;
+    left: 6%;
     transition: .2s ease;
   }
   .insta:hover{
@@ -445,7 +445,7 @@ html, body{
   .tw{
     position: absolute;
     width: 5%;
-    left: 11%;
+    left: 14%;
     transition: .2s ease;
   }
   .tw:hover{
@@ -455,7 +455,7 @@ html, body{
   .email{
     position: absolute;
     width: 5%;
-    left: 18%;
+    left: 22%;
     transition: .2s ease;
   }
   .email:hover{
