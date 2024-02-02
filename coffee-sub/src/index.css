@@ -250,7 +250,7 @@ html, body{
 /* Responsive Code */
 
 
-@media only screen and (max-width: 1920px){ /* Laptop */
+@media only screen and (max-width: 1920px){ 
   .logo{
     width: 8%;
     display:flex;
@@ -460,7 +460,7 @@ html, body{
   }
 }
 
-@media only screen and (max-width: 1440px){ /* Laptop */
+@media only screen and (max-width: 1440px){ 
   .logo{
     width: 8%;
     display:flex;
@@ -477,7 +477,7 @@ html, body{
     font-size: 25px;
   }
   .nav-bar span:hover{
-    color: #9A7BAF;
+    color: #5c65e4;
     cursor: pointer;
     transform: rotate(20deg);
   
@@ -513,13 +513,12 @@ html, body{
     justify-content: flex-end;
     height: 100%;
     opacity: 35%;
-
     
   }
   .background-img{
     display: flex;
     object-fit: cover;
-
+    width: 50%;
   }
   
   /* Join button */
@@ -671,7 +670,7 @@ html, body{
 }
 
 
-@media only screen and (max-width: 810px){ /* Tablet */
+@media only screen and (max-width: 810px){ 
   .logo{
     width: 15%;
     display:flex;
@@ -884,7 +883,7 @@ html, body{
 
 
 
-@media only screen and (max-width: 391px){ /* Iphone SE*/
+@media only screen and (max-width: 391px){ 
   html, body{
     min-height: 600px;
     display: flex;
