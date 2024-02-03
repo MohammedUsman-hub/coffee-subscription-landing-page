@@ -19,6 +19,14 @@ html, body{
 }*/
 
 /* Top left logo */
+.logoDiv{
+  width: 100%;
+  display:flex;
+  justify-content: baseline;
+  position: absolute;
+  bottom: 60pc;
+  left: 12%;
+}
 .logo{
   width: 8%;
   display:flex;
@@ -251,6 +259,21 @@ html, body{
 
 
 @media only screen and (max-width: 1920px){ 
+  html, body{
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, rgb(117, 111, 103) 10%, rgb(48, 37, 19) 30%);
+    /*background-color: rgb(166, 203, 197);*/
+    font-family: 'Pacifico', cursive;
+    scroll-behavior: smooth;
+  }
+  .logoDiv{
+    width: 100%;
+  }
   .logo{
     width: 8%;
     display:flex;
@@ -263,8 +286,9 @@ html, body{
     display: flex;
     justify-content: baseline;
     position: relative;
-    top: 90px;
+    top: 60px;
     font-size: 25px;
+    width: auto;
   }
   .nav-bar span:hover{
     color: #9A7BAF;
@@ -461,6 +485,26 @@ html, body{
 }
 
 @media only screen and (max-width: 1440px){ 
+  html, body{
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, rgb(117, 111, 103) 10%, rgb(48, 37, 19) 30%);
+    /*background-color: rgb(166, 203, 197);*/
+    font-family: 'Pacifico', cursive;
+    scroll-behavior: smooth;
+  }
+  .logoDiv{
+    width: 100%;
+    display:flex;
+    justify-content: baseline;
+    position: absolute;
+    bottom: 60pc;
+    left: 12%;
+  }
   .logo{
     width: 8%;
     display:flex;
@@ -671,6 +715,26 @@ html, body{
 
 
 @media only screen and (max-width: 810px){ 
+  html, body{
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, rgb(117, 111, 103) 10%, rgb(48, 37, 19) 30%);
+    /*background-color: rgb(166, 203, 197);*/
+    font-family: 'Pacifico', cursive;
+    scroll-behavior: smooth;
+  }
+  .logoDiv{
+    width: 100%;
+    display:flex;
+    justify-content: baseline;
+    position: absolute;
+    bottom: 60pc;
+    left: 12%;
+  }
   .logo{
     width: 15%;
     display:flex;
@@ -895,6 +959,14 @@ html, body{
     /*background-color: rgb(166, 203, 197);*/
     font-family: 'Pacifico', cursive;
     scroll-behavior: smooth;
+  }
+  .logoDiv{
+    width: 100%;
+    display:flex;
+    justify-content: baseline;
+    position: absolute;
+    bottom: 60pc;
+    left: 12%;
   }
 
   .logo{
