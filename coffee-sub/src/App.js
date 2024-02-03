@@ -1,12 +1,12 @@
 import { Component } from 'react';
-import Background from './components/bg'
+import Background from './components/bg';
 import JoinBtn from './components/btn'
 import NavBar from './components/nav';
 import Text from './components/txt';
 import TextBox from './components/txtbox';
 import LearnMore from './components/learnmore';
 import SocialMediaLogo from './components/SmLogo';
-import Logo from './components/logo'
+
 
 
 export default class App extends Component{
@@ -20,7 +20,7 @@ export default class App extends Component{
                 <TextBox/>
                 <LearnMore/>
                 <SocialMediaLogo/>
-                <Logo/>
+
             </div>
         );
     }

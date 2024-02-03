@@ -19,14 +19,6 @@ html, body{
 }*/
 
 /* Top left logo */
-.logoDiv{
-  width: 100%;
-  display:flex;
-  justify-content: baseline;
-  position: absolute;
-  bottom: 60pc;
-  left: 12%;
-}
 .logo{
   width: 8%;
   display:flex;
@@ -271,24 +263,21 @@ html, body{
     font-family: 'Pacifico', cursive;
     scroll-behavior: smooth;
   }
-  .logoDiv{
-    width: 100%;
-  }
+
   .logo{
     width: 8%;
     display:flex;
     justify-content: baseline;
     position: absolute;
-    bottom: 60pc;
-    left: 12%;
+    bottom: 51pc;
+    left: 11%;
   }
   .nav-bar{ /* logo div */
     display: flex;
     justify-content: baseline;
     position: relative;
-    top: 60px;
+    top: -50px;
     font-size: 25px;
-    width: auto;
   }
   .nav-bar span:hover{
     color: #9A7BAF;
@@ -496,14 +485,6 @@ html, body{
     /*background-color: rgb(166, 203, 197);*/
     font-family: 'Pacifico', cursive;
     scroll-behavior: smooth;
-  }
-  .logoDiv{
-    width: 100%;
-    display:flex;
-    justify-content: baseline;
-    position: absolute;
-    bottom: 60pc;
-    left: 12%;
   }
   .logo{
     width: 8%;
@@ -726,22 +707,6 @@ html, body{
     /*background-color: rgb(166, 203, 197);*/
     font-family: 'Pacifico', cursive;
     scroll-behavior: smooth;
-  }
-  .logoDiv{
-    width: 100%;
-    display:flex;
-    justify-content: baseline;
-    position: absolute;
-    bottom: 60pc;
-    left: 12%;
-  }
-  .logo{
-    width: 15%;
-    display:flex;
-    justify-content: baseline;
-    position: absolute;
-    bottom: 52pc;
-    left: 10%;
   }
   .nav-bar{ /* logo div */
     display: flex;
