@@ -334,7 +334,7 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25%;
+    width: 20%;
     height: 40px;
     border-radius: 50px;
     color: white;
@@ -343,7 +343,7 @@ html, body{
     font-size: 20px;
     position: absolute;
     top: 50%;
-    left: 6%;
+    left: 5%;
     font-family: 'Pacifico', cursive;
   }
   #join-btn:hover{
@@ -369,8 +369,8 @@ html, body{
     display: flex;
     margin: auto;
     position: absolute;
-    bottom: 45pc;
-    left: 4%;
+    bottom: 52pc;
+    left: 7%;
   }
   #txt-2{ /* £4.99 monthly */
     color: white;
@@ -378,20 +378,20 @@ html, body{
     display: flex;
     margin: auto;
     position: absolute;
-    bottom: 38pc;
-    left: 8%;
+    bottom: 45pc;
+    left: 10%;
   }
   
   
   
   .txtBox-div{
     width: 59%;
-    height: 57%;
+    height: 40%;
     background-color: rgba(210, 105, 30, 0.105);
     font-family: 'Inspiration', cursive;
     position: absolute;
     top: 25%;
-    left: 40%;
+    left: 33%;
     opacity: 100%;
     text-align: center;
   }
@@ -402,13 +402,13 @@ html, body{
   
   
   .learnMore-div{
-    width: 12%;
+    width: 9%;
     height: 50px;
     position: relative;
     outline: 5px solid white;
-    bottom: 9pc;
-    left: 86%;
-    padding-left: 10px;
+    bottom: 22pc;
+    left: 82%;
+    padding-left: 13x;
   }
   .learnMore-txt{
     font-size: 30px;
@@ -427,9 +427,9 @@ html, body{
   /* Social Media logos */
   .smLogo{
     position: relative;
-    bottom: 12pc;
+    bottom: 20pc;
     width: 60%;
-    left: 12%;
+    left: 8%;
   }
   .fb{
     position: absolute;
